@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.uk-table td {
+  padding: 0.5rem;
+}
+
+body {
+  font-family: 'Roboto Mono', sans-serif;
+
+  background-image: radial-gradient(circle at 1px 1px, black 1px, transparent 0);
+  background-size: 40px 40px;
+}
+
+/* Franken UI Theme */
+.uk-theme-zinc {
+  --background: 0.00 0.00% 100.00%;
+  --foreground: 228.00 25.00% 23.53%;
+  --primary: 228.00 25.00% 23.53%;
+  --primary-foreground: 220.00 7.69% 92.35%;
+  --card: 240.00 5.26% 96.27%;
+  --card-foreground: 228.00 25.00% 23.53%;
+  --popover: 0.00 0.00% 100.00%;
+  --popover-foreground: 220.00 27.27% 2.16%;
+  --secondary: 240.00 6.90% 88.63%;
+  --secondary-foreground: 0.00 0.00% 0.00%;
+  --muted: 220.00 7.69% 92.35%;
+  --muted-foreground: 0.00 0.00% 40.00%;
+  --accent: 220.00 7.69% 92.35%;
+  --accent-foreground: 228.00 25.00% 23.53%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 230.00 7.69% 84.71%;
+  --input: 225.00 3.57% 78.04%;
+  --ring: 228.00 25.00% 23.53%;
+  --radius: 0.5rem;
+}
